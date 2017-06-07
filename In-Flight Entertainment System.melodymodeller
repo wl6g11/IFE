@@ -182,24 +182,6 @@
         <ownedOperationalActivities xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
             id="d2b0e9ba-7e48-4508-aabc-b4ce66e1cad9" name="Root Operational Activity">
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
-              id="877277ed-fda0-4295-9761-4c7e68922f19" name="语音广播通知">
-            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
-                id="101ed7e9-bbbb-4689-b482-f718f2366423" involver="#877277ed-fda0-4295-9761-4c7e68922f19"
-                involved="#daaa759b-bfa4-49bb-89a6-08d99b603af9" nextFunctionalChainInvolvements="#3433a20d-4907-4cca-b412-955539823249"/>
-            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
-                id="3433a20d-4907-4cca-b412-955539823249" involver="#877277ed-fda0-4295-9761-4c7e68922f19"
-                involved="#cc39bfa2-731b-448d-a8b7-a45d1cf45a97" nextFunctionalChainInvolvements="#023da8b4-9ade-481a-9d6f-775b51ca1d46"/>
-            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
-                id="b764ca61-9a46-4990-9a5e-628620f08bad" involver="#877277ed-fda0-4295-9761-4c7e68922f19"
-                involved="#280bb458-fb27-41b5-84cf-4af9dd82f2a8" nextFunctionalChainInvolvements="#101ed7e9-bbbb-4689-b482-f718f2366423"/>
-            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
-                id="023da8b4-9ade-481a-9d6f-775b51ca1d46" involver="#877277ed-fda0-4295-9761-4c7e68922f19"
-                involved="#d3db593e-dfeb-4ecf-b7cd-92b43ae785e0" nextFunctionalChainInvolvements="#4f68e8bf-943d-44dc-a5a2-02ec72d44ed3"/>
-            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
-                id="4f68e8bf-943d-44dc-a5a2-02ec72d44ed3" involver="#877277ed-fda0-4295-9761-4c7e68922f19"
-                involved="#60dc5173-5420-44c0-bedf-ad3f6958a79d"/>
-          </ownedFunctionalChains>
-          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
               id="0a198a15-ad0d-4cb8-bde1-06b03d38fca8" name="播放安全视频">
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
                 id="3b9b3c83-ba99-4be9-ba87-ffd325426863" involver="#0a198a15-ad0d-4cb8-bde1-06b03d38fca8"
@@ -216,6 +198,24 @@
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
                 id="b32c2181-1042-4b8e-aa27-de4a7d3a6718" involver="#0a198a15-ad0d-4cb8-bde1-06b03d38fca8"
                 involved="#f9cabb24-100b-4e68-930a-8f35ec38c106"/>
+          </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
+              id="aa08ad8a-160a-44b0-baaa-2234a5f3072a" name="播放语音通知">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
+                id="8c2c7d5f-8886-4d83-8b62-142f06b711fb" involver="#aa08ad8a-160a-44b0-baaa-2234a5f3072a"
+                involved="#daaa759b-bfa4-49bb-89a6-08d99b603af9" nextFunctionalChainInvolvements="#e631390b-b294-469a-adf8-b709994d3066"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
+                id="e631390b-b294-469a-adf8-b709994d3066" involver="#aa08ad8a-160a-44b0-baaa-2234a5f3072a"
+                involved="#cc39bfa2-731b-448d-a8b7-a45d1cf45a97" nextFunctionalChainInvolvements="#d4754859-28cb-4186-b16d-0a70be0b4661"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
+                id="df794f36-c05d-419f-8b36-da2bf2acfaad" involver="#aa08ad8a-160a-44b0-baaa-2234a5f3072a"
+                involved="#280bb458-fb27-41b5-84cf-4af9dd82f2a8" nextFunctionalChainInvolvements="#8c2c7d5f-8886-4d83-8b62-142f06b711fb"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
+                id="d4754859-28cb-4186-b16d-0a70be0b4661" involver="#aa08ad8a-160a-44b0-baaa-2234a5f3072a"
+                involved="#d3db593e-dfeb-4ecf-b7cd-92b43ae785e0" nextFunctionalChainInvolvements="#3343f99c-92f8-477d-8c4d-2fcee9545e9c"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
+                id="3343f99c-92f8-477d-8c4d-2fcee9545e9c" involver="#aa08ad8a-160a-44b0-baaa-2234a5f3072a"
+                involved="#60dc5173-5420-44c0-bedf-ad3f6958a79d"/>
           </ownedFunctionalChains>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="426f80c2-78ad-4e94-8e5b-da19f22aca26" name="提供飞机当前飞行信息" availableInStates="#4a069028-2325-48de-b564-4fef9d6d5a24 #e3993570-4314-45be-a7c0-bc21b1663bc5 #61c11bf7-ea27-40f6-a7a9-361c0482f7f1"/>
@@ -1649,8 +1649,7 @@
                 involved="#7de3b04b-6291-4098-afbd-2fb72cd25022"/>
           </ownedFunctionalChains>
           <ownedScenarios xsi:type="org.polarsys.capella.core.data.interaction:Scenario"
-              id="fa8dc626-68de-4e83-b9b9-2a1aa7813b7c" name="[FS] Perform Audio Announcement"
-              kind="FUNCTIONAL">
+              id="fa8dc626-68de-4e83-b9b9-2a1aa7813b7c" name="[FS] 广播音频通知" kind="FUNCTIONAL">
             <ownedConstraints xsi:type="org.polarsys.capella.core.data.capellacore:Constraint"
                 id="9f39d190-6235-4dac-821f-ad0392eebed2" name="">
               <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
@@ -1736,8 +1735,7 @@
                 id="1e8c6217-45cd-4356-9c89-e4aca1238887"/>
           </ownedScenarios>
           <ownedScenarios xsi:type="org.polarsys.capella.core.data.interaction:Scenario"
-              id="a395ed36-9833-4a4a-89cf-a4c41cd5928c" name="[ES] Perform Audio Announcement"
-              kind="DATA_FLOW">
+              id="a395ed36-9833-4a4a-89cf-a4c41cd5928c" name="[ES] 广播音频通知" kind="DATA_FLOW">
             <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
                 id="b8d59f07-1908-44ed-8778-a82f7eea31e7" targetElement="#0498894b-ac03-4fe3-ac23-3a8c11977413"
                 sourceElement="#eb1241d3-164e-4bad-bcd0-8fb7958871d7">
@@ -1916,6 +1914,15 @@
           <ownedAbstractFunctionAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:AbstractFunctionAbstractCapabilityInvolvement"
               id="4d297db5-e67a-45a8-8791-3cbec7636ca1" involver="#291fb362-9ae5-4779-8405-1281ea3709f6"
               involved="#8f279b07-26aa-46f6-8c9a-2a132f0b1177"/>
+          <ownedAbstractFunctionAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:AbstractFunctionAbstractCapabilityInvolvement"
+              id="ca5b481e-0960-4c68-90c4-bc096b7aafc8" involver="#291fb362-9ae5-4779-8405-1281ea3709f6"
+              involved="#dacbebb6-72c7-4d4c-9009-aa95eba16dd3"/>
+          <ownedAbstractFunctionAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:AbstractFunctionAbstractCapabilityInvolvement"
+              id="88f7ba59-c13b-474d-ad55-7d56e84082cf" involver="#291fb362-9ae5-4779-8405-1281ea3709f6"
+              involved="#9972b7a8-df8a-4626-b298-1dd0d19e451e"/>
+          <ownedAbstractFunctionAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:AbstractFunctionAbstractCapabilityInvolvement"
+              id="b9df2062-0c7a-494e-aefe-f85be1a88b9e" involver="#291fb362-9ae5-4779-8405-1281ea3709f6"
+              involved="#65787ee3-ab55-4200-91e3-d772a4ee3f28"/>
           <ownedActorCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:ActorCapabilityInvolvement"
               id="329c0df9-a854-49ab-9404-bf2047a0ebf0" involver="#291fb362-9ae5-4779-8405-1281ea3709f6"
               involved="#4890eae8-7a62-4d7b-bf8a-1590a199eebf"/>
@@ -2011,8 +2018,7 @@
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
               id="10a21953-49e6-4179-8ce8-aafc125e9540" name="Stop VOD Movie[NOT DONE]"/>
           <ownedScenarios xsi:type="org.polarsys.capella.core.data.interaction:Scenario"
-              id="58d8d80a-34ab-4e60-aee2-fb8eb885583a" name="[ES] Start VOD Service"
-              kind="DATA_FLOW">
+              id="58d8d80a-34ab-4e60-aee2-fb8eb885583a" name="[ES] 启动视频点播服务" kind="DATA_FLOW">
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
                 id="6a70fde6-530c-4138-9ad1-212af2a72337" name="机载娱乐系统" representedInstance="#cb4b8f2d-7663-4d35-bc44-20080a8d3133"/>
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
@@ -2178,8 +2184,7 @@
                 id="8c019281-42a3-44de-ab41-2523a215793a"/>
           </ownedScenarios>
           <ownedScenarios xsi:type="org.polarsys.capella.core.data.interaction:Scenario"
-              id="2d18447b-6c5a-45f7-8149-245290242bab" name="[ES] Start Playing VOD Movie"
-              kind="DATA_FLOW">
+              id="2d18447b-6c5a-45f7-8149-245290242bab" name="[ES] 播放点播的电影" kind="DATA_FLOW">
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
                 id="ca3f2ed0-d789-4670-ac16-097dcfccc4ea" name="乘客" representedInstance="#e9c81b65-e5f7-4edd-be4d-4e6a08f5e825"/>
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
@@ -2569,8 +2574,7 @@
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
             id="74e6e35e-b1e7-45c1-bd9f-5d80c0714472" name="提供访问管理控制" purposes="#b3e85539-e406-4f9a-8d21-097fb55ddde1">
           <ownedScenarios xsi:type="org.polarsys.capella.core.data.interaction:Scenario"
-              id="ef6ce369-4a17-4655-aa96-66b3b69c7315" name="[FS] Determine Passenger Service Availability"
-              kind="FUNCTIONAL">
+              id="ef6ce369-4a17-4655-aa96-66b3b69c7315" name="[FS] 确定可用客户服务" kind="FUNCTIONAL">
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
                 id="4a04a954-87b7-4a25-93b3-bf655c0e30b2" name="Select Passenger Service"
                 representedInstance="#65787ee3-ab55-4200-91e3-d772a4ee3f28"/>
@@ -2698,17 +2702,13 @@
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
             id="5acd248a-3961-4e71-85a4-5bc3b775215f" name="飞机约束集成">
           <ownedScenarios xsi:type="org.polarsys.capella.core.data.interaction:Scenario"
-              id="3324a066-17a5-4b28-9dac-ad81cd4e7893" name="[FS] Handle Cabin Decompression Event"
-              kind="FUNCTIONAL">
+              id="3324a066-17a5-4b28-9dac-ad81cd4e7893" name="[FS] 处理客舱欠压情况" kind="FUNCTIONAL">
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
-                id="4b7f1e09-fcd0-4e3a-bc4c-a079f79d2783" name="Send Decompression Notification"
-                representedInstance="#9972b7a8-df8a-4626-b298-1dd0d19e451e"/>
+                id="4b7f1e09-fcd0-4e3a-bc4c-a079f79d2783" name="发送欠压提示" representedInstance="#9972b7a8-df8a-4626-b298-1dd0d19e451e"/>
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
-                id="58208e4d-2518-4422-b7a8-640ef5a80d46" name="Determine Operating Profiles"
-                representedInstance="#3f8567f2-5389-42c0-84a9-8a1360dc9572"/>
+                id="58208e4d-2518-4422-b7a8-640ef5a80d46" name="设定运行配置" representedInstance="#3f8567f2-5389-42c0-84a9-8a1360dc9572"/>
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
-                id="cd6b861a-d20e-431c-8622-878f4c9b30d6" name="Determine Service Availability"
-                representedInstance="#b7244d6a-08ab-4455-bbd9-aa5f1bbc9b5b"/>
+                id="cd6b861a-d20e-431c-8622-878f4c9b30d6" name="确定可用服务" representedInstance="#b7244d6a-08ab-4455-bbd9-aa5f1bbc9b5b"/>
             <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
                 id="42a1df57-f193-401a-8dde-26d603453c60" name="欠压提示" kind="ASYNCHRONOUS_CALL"
                 sendingEnd="#8ef6437c-84e0-431f-b0b3-89ffc7381399" receivingEnd="#723fbe5c-d1ec-4a5c-9094-ade3a35b1852"/>
@@ -2720,7 +2720,7 @@
                   id="0e955c50-16a4-4af9-a993-3eaced3285c5" name="">
                 <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
                     id="438856d1-01e4-4dd2-8c69-5dfa23bde270">
-                  <bodies>Profile = CORE SERVICES ONLY</bodies>
+                  <bodies>&amp;#37197;&amp;#32622; = &amp;#26680;&amp;#24515;&amp;#26381;&amp;#21153;</bodies>
                   <languages>capella:linkedText</languages>
                 </ownedSpecification>
               </ownedConstraints>
@@ -2792,6 +2792,9 @@
           <ownedAbstractFunctionAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:AbstractFunctionAbstractCapabilityInvolvement"
               id="59cfd69b-aa63-4fed-813d-ac6cd2f346f5" involver="#5acd248a-3961-4e71-85a4-5bc3b775215f"
               involved="#135e77a7-79ef-45e8-b138-67e283a14cdd"/>
+          <ownedAbstractFunctionAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:AbstractFunctionAbstractCapabilityInvolvement"
+              id="8a82acf1-3536-46d7-a51f-2d84b882a8d1" involver="#5acd248a-3961-4e71-85a4-5bc3b775215f"
+              involved="#1bc70a69-c6ad-4203-abb9-88b644ac0b95"/>
           <ownedActorCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:ActorCapabilityInvolvement"
               id="2dbb068b-75d7-4016-ad0d-64a230f055a1" involver="#5acd248a-3961-4e71-85a4-5bc3b775215f"
               involved="#c8b78c78-5b11-4fc0-87b7-3ca84622efea"/>
@@ -2903,9 +2906,9 @@
             </ownedMembers>
           </ownedAssociations>
           <ownedClasses xsi:type="org.polarsys.capella.core.data.information:Class"
-              id="0c17402c-e5e4-44d4-9692-efc4bfb8ab2a" name="Seat">
+              id="0c17402c-e5e4-44d4-9692-efc4bfb8ab2a" name="座位">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.information:Property"
-                id="8bec7dec-3987-4b7d-afbc-5aaa8d2efd64" name="class" abstractType="#6bca4516-9dc6-45ad-9302-d7924289aa23"
+                id="8bec7dec-3987-4b7d-afbc-5aaa8d2efd64" name="座位等级" abstractType="#6bca4516-9dc6-45ad-9302-d7924289aa23"
                 unique="true">
               <ownedMinCard xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
                   id="52f9e2f8-fecc-441a-9ad1-807e638f035a" value="1"/>
@@ -2922,7 +2925,7 @@
             </ownedFeatures>
           </ownedClasses>
           <ownedClasses xsi:type="org.polarsys.capella.core.data.information:Class"
-              id="69bc8e28-37ec-4b2b-b47d-0cfb9ea8e645" name="Passenger">
+              id="69bc8e28-37ec-4b2b-b47d-0cfb9ea8e645" name="乘客">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.information:Property"
                 id="7e013bf2-1999-4efe-95ed-1d1b0407bac3" name="seat" abstractType="#0c17402c-e5e4-44d4-9692-efc4bfb8ab2a"
                 unique="true" aggregationKind="ASSOCIATION" isPartOfKey="true">
@@ -2932,7 +2935,7 @@
                   id="ad863c58-f3e1-4540-89bf-a6bed498ec32" value="1"/>
             </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.information:Property"
-                id="2b0362f6-7d62-4804-a024-bedb01a54407" name="name" abstractType="#0abcd19d-aad8-475a-a3a4-bb5f3553ea2e"
+                id="2b0362f6-7d62-4804-a024-bedb01a54407" name="名字" abstractType="#0abcd19d-aad8-475a-a3a4-bb5f3553ea2e"
                 unique="true">
               <ownedMinCard xsi:type="org.polarsys.capella.core.data.information.datavalue:LiteralNumericValue"
                   id="9da582aa-386a-43c6-9697-44810d2757b2" value="1"/>
@@ -2965,7 +2968,7 @@
             </ownedFeatures>
           </ownedClasses>
           <ownedClasses xsi:type="org.polarsys.capella.core.data.information:Class"
-              id="8a3c3a57-1ff3-4d9e-845e-0e142c1ca7dc" name="Cabin">
+              id="8a3c3a57-1ff3-4d9e-845e-0e142c1ca7dc" name="客舱">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.information:Property"
                 id="50abcaff-9fc4-4d8b-9f9a-fac194689716" name="crew" abstractType="#bcc88a58-3c68-4f46-8502-f5783a6f9046"
                 unique="true" aggregationKind="COMPOSITION">
@@ -3000,7 +3003,7 @@
             </ownedFeatures>
           </ownedClasses>
           <ownedClasses xsi:type="org.polarsys.capella.core.data.information:Class"
-              id="67bd0af1-6242-4dec-aeef-3f54a7d8ba47" name="Aircraft">
+              id="67bd0af1-6242-4dec-aeef-3f54a7d8ba47" name="飞机">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.information:Property"
                 id="275a749d-1e5c-40fd-81ce-71f3af536b48" name="cabin" abstractType="#8a3c3a57-1ff3-4d9e-845e-0e142c1ca7dc"
                 unique="true" aggregationKind="COMPOSITION">
@@ -3035,19 +3038,19 @@
             </ownedFeatures>
           </ownedClasses>
           <ownedClasses xsi:type="org.polarsys.capella.core.data.information:Class"
-              id="bcc88a58-3c68-4f46-8502-f5783a6f9046" name="Crew Member"/>
+              id="bcc88a58-3c68-4f46-8502-f5783a6f9046" name="机组成员"/>
           <ownedClasses xsi:type="org.polarsys.capella.core.data.information:Class"
-              id="4bb53659-1f4f-4fc0-9eb6-8e6d7bec1415" name="Speaker"/>
+              id="4bb53659-1f4f-4fc0-9eb6-8e6d7bec1415" name="扬声器"/>
           <ownedClasses xsi:type="org.polarsys.capella.core.data.information:Class"
-              id="e3b6bcb8-d453-489f-afb1-3c7811acad55" name="Screen"/>
+              id="e3b6bcb8-d453-489f-afb1-3c7811acad55" name="屏幕"/>
           <ownedDataTypes xsi:type="org.polarsys.capella.core.data.information.datatype:Enumeration"
-              id="6bca4516-9dc6-45ad-9302-d7924289aa23" name="CLASS">
+              id="6bca4516-9dc6-45ad-9302-d7924289aa23" name="座位等级">
             <ownedLiterals xsi:type="org.polarsys.capella.core.data.information.datavalue:EnumerationLiteral"
-                id="b6dd6acc-abae-4921-abf1-1600a9230f7f" name="BUSINESS" abstractType="#6bca4516-9dc6-45ad-9302-d7924289aa23"/>
+                id="b6dd6acc-abae-4921-abf1-1600a9230f7f" name="商务" abstractType="#6bca4516-9dc6-45ad-9302-d7924289aa23"/>
             <ownedLiterals xsi:type="org.polarsys.capella.core.data.information.datavalue:EnumerationLiteral"
-                id="25a70f9a-8bbc-471f-9258-496f41a414ea" name="PREMIUM" abstractType="#6bca4516-9dc6-45ad-9302-d7924289aa23"/>
+                id="25a70f9a-8bbc-471f-9258-496f41a414ea" name="头等舱" abstractType="#6bca4516-9dc6-45ad-9302-d7924289aa23"/>
             <ownedLiterals xsi:type="org.polarsys.capella.core.data.information.datavalue:EnumerationLiteral"
-                id="85538f97-2a6d-4c67-b428-1753b82d9c54" name="ECONOMY" abstractType="#6bca4516-9dc6-45ad-9302-d7924289aa23"/>
+                id="85538f97-2a6d-4c67-b428-1753b82d9c54" name="经济舱" abstractType="#6bca4516-9dc6-45ad-9302-d7924289aa23"/>
           </ownedDataTypes>
         </ownedDataPkgs>
         <ownedStateEvents xsi:type="org.polarsys.capella.core.data.capellacommon:ChangeEvent"
@@ -3057,7 +3060,7 @@
               id="cc827db9-9cb3-4778-95cb-692951a8edfd">
             <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
                 id="a2c05f6d-eda2-4a7e-90e1-d6d927b2c35a" name="OpaqueExpression">
-              <bodies>Audio Announcement Ended</bodies>
+              <bodies>&amp;#35821;&amp;#38899;&amp;#36890;&amp;#30693;&amp;#32467;&amp;#26463;</bodies>
               <languages>capella:linkedText</languages>
             </ownedSpecification>
           </ownedConstraints>
@@ -3121,7 +3124,7 @@
             id="80252a52-cd3c-49b9-b271-4c65d0ffdae0" targetElement="#4d8cc764-6c72-49ca-8b5e-c57104345aac"
             sourceElement="#e0a46739-7e50-4ea6-b198-0e5efb9ce68f"/>
         <ownedStateMachines xsi:type="org.polarsys.capella.core.data.capellacommon:StateMachine"
-            id="d6609d04-d9ab-4df7-9058-572916f9f3f7" name="IFE Operating Modes">
+            id="d6609d04-d9ab-4df7-9058-572916f9f3f7" name="机载娱乐系统工作模式">
           <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
               id="1ccc8105-1b79-4f8a-95e0-234f4f4bad6d" name="Default Region" involvedStates="#9d6b1742-c099-4dba-9d76-ad2604e63789 #eecdad2c-ece1-44cb-86e1-776d8d80b61f #1656f21f-602e-4a9b-8f53-926f95ff219c #6c60fb24-82ff-482a-87db-58f00e0323f4 #6171dcbd-85b7-4452-a035-8ab9c1be37e7 #751ab990-c2ad-4a61-aa75-ef0ae29f9a6f #48274f30-48fc-46dc-b4aa-2587972da645 #75503038-7ad6-4212-9098-b5764b7a430b #b2c226dc-43c6-494e-b6cb-dbc652561725">
             <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:InitialPseudoState"
@@ -3193,7 +3196,7 @@
                 id="48274f30-48fc-46dc-b4aa-2587972da645" name="选择" outgoing="#2d16e66e-b5e2-4880-ab96-76da319a2103 #b31765b6-33cc-4df2-b6f0-63fc8fbf5b67 #ff789a3b-5368-468d-9bae-6f33e1fc77cb"
                 incoming="#b2f4b8ad-fe74-4318-a088-e7b00f29ed94"/>
             <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:Mode"
-                id="75503038-7ad6-4212-9098-b5764b7a430b" name="Degraded" outgoing="#10799b35-8076-42f4-8ebc-aca4c16492b5 #533c85d1-0b0f-4c76-8c31-041a87179d12 #feff77c7-6c73-4525-8f90-7943b89a1d8a"
+                id="75503038-7ad6-4212-9098-b5764b7a430b" name="部分运行" outgoing="#10799b35-8076-42f4-8ebc-aca4c16492b5 #533c85d1-0b0f-4c76-8c31-041a87179d12 #feff77c7-6c73-4525-8f90-7943b89a1d8a"
                 incoming="#329d833a-cc85-4d3e-8dad-4a4d14192c57">
               <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                   id="b099f174-e4b4-4ef4-817f-496b970957d3" name="region"/>
@@ -3236,7 +3239,7 @@
                   id="45d2a653-20ad-42df-b722-b0c2c00c8c0f" name="">
                 <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
                     id="d67a5c9a-6101-40bc-8938-7104a032afe4">
-                  <bodies>&amp;#37197;&amp;#32622; = &amp;#26680;&amp;#24515;&amp;#35774;&amp;#22791;</bodies>
+                  <bodies>&amp;#37197;&amp;#32622; = &amp;#26680;&amp;#24515;&amp;#26381;&amp;#21153;</bodies>
                   <languages>capella:linkedText</languages>
                 </ownedSpecification>
               </ownedConstraints>
@@ -3249,7 +3252,7 @@
                   id="b1f5480c-2ce8-456f-b3e2-9a35c16007e8" name="">
                 <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
                     id="b9cf9fc2-8978-44bc-800f-cffbb6fcd7f6">
-                  <bodies>Profile = NO SERVICE</bodies>
+                  <bodies>&amp;#37197;&amp;#32622; = &amp;#26080;&amp;#26381;&amp;#21153;</bodies>
                   <languages>capella:linkedText</languages>
                 </ownedSpecification>
               </ownedConstraints>
@@ -3268,7 +3271,7 @@
                   id="6c02cc9b-a2c6-433b-a7ea-9f91cc6c7da3" name="">
                 <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
                     id="a1bb54df-fc77-4259-bd67-22e57fc53ae2">
-                  <bodies>&amp;#37197;&amp;#32622; = &amp;#25152;&amp;#26377;&amp;#35774;&amp;#22791;</bodies>
+                  <bodies>&amp;#37197;&amp;#32622; = &amp;#25152;&amp;#26377;&amp;#26381;&amp;#21153;</bodies>
                   <languages>capella:linkedText</languages>
                 </ownedSpecification>
               </ownedConstraints>
@@ -3281,7 +3284,7 @@
                   id="4033ec8d-d90a-4f93-881b-58ebfeb24b53" name="">
                 <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
                     id="7f5f7306-f22f-4cf6-b0d0-0787fa34da21">
-                  <bodies>Profile = ALL SERVICES</bodies>
+                  <bodies>&amp;#37197;&amp;#32622; = &amp;#25152;&amp;#26377;&amp;#26381;&amp;#21153;</bodies>
                   <languages>capella:linkedText</languages>
                 </ownedSpecification>
               </ownedConstraints>
@@ -3294,7 +3297,7 @@
                   id="79c8c72a-3d81-4d74-90cc-7ee5d3a3d10c" name="">
                 <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
                     id="e3eab50d-1058-4cfc-8483-5ce92b5056d4">
-                  <bodies>Profile = NO SERVICE</bodies>
+                  <bodies>&amp;#37197;&amp;#32622; = &amp;#26080;&amp;#26381;&amp;#21153;</bodies>
                   <languages>capella:linkedText</languages>
                 </ownedSpecification>
               </ownedConstraints>
@@ -3302,7 +3305,7 @@
           </ownedRegions>
         </ownedStateMachines>
         <ownedStateMachines xsi:type="org.polarsys.capella.core.data.capellacommon:StateMachine"
-            id="40074ef0-f899-41bc-8863-c45da1e22d93" name="PTV Movie Player Modes">
+            id="40074ef0-f899-41bc-8863-c45da1e22d93" name="座位显示屏工作模式">
           <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
               id="b69c2994-022b-495b-9302-40712660de56" name="Default Region" involvedStates="#936298e9-333e-40c7-a38b-6af39b8d27bb #4243ffb3-5f36-4ee3-81bc-d786f8b9424e #e1589350-78e9-43b7-b87d-926def3fdddf #0b71ac24-f73d-4aac-a730-3d6c57ca62bc #2946a0e8-ef0c-4da0-9760-f202d4298f4d #ed01d361-f9cb-4c26-a0aa-e9338d4066ff">
             <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:InitialPseudoState"
@@ -3310,45 +3313,42 @@
             <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:FinalState"
                 id="4243ffb3-5f36-4ee3-81bc-d786f8b9424e" name="Final" incoming="#2ef387c7-2147-4275-9fe3-d6a3faea5be5 #4596aea0-9ef1-4f03-bf26-d9d61fb259e3 #76b010f4-8d70-4b39-89ca-cbd2c842e967"/>
             <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:Mode"
-                id="0b71ac24-f73d-4aac-a730-3d6c57ca62bc" name="Seat TV - Home Page Displayed"
-                outgoing="#7d63a0c2-2013-4457-9043-6151dceb7afe #d6f870b8-c0f4-4c90-994f-0fcda94b2969 #6c7bfe2c-addc-473d-9381-443727c3f1c2 #effbd5e4-a19c-4f63-88fa-3c03b0932efa #2ef387c7-2147-4275-9fe3-d6a3faea5be5 #1c19355c-6b5b-495c-bc09-ff91582a8d56 #4844da87-34dc-4112-8b7d-6f89a76eec35"
+                id="0b71ac24-f73d-4aac-a730-3d6c57ca62bc" name="座位显示屏 - 显示主页" outgoing="#7d63a0c2-2013-4457-9043-6151dceb7afe #d6f870b8-c0f4-4c90-994f-0fcda94b2969 #6c7bfe2c-addc-473d-9381-443727c3f1c2 #effbd5e4-a19c-4f63-88fa-3c03b0932efa #2ef387c7-2147-4275-9fe3-d6a3faea5be5 #1c19355c-6b5b-495c-bc09-ff91582a8d56 #4844da87-34dc-4112-8b7d-6f89a76eec35"
                 incoming="#0f9f1936-b6e7-4209-9e9f-4773796cf838 #2f61a941-fb18-4ac9-ade0-22859e7814c7">
               <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                   id="41dd5a37-43e4-4cb1-b6a8-bf424bb96d6a" name="region"/>
             </ownedStates>
             <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:Mode"
-                id="2946a0e8-ef0c-4da0-9760-f202d4298f4d" name="PTV - Maintenance"
-                incoming="#1c19355c-6b5b-495c-bc09-ff91582a8d56">
+                id="2946a0e8-ef0c-4da0-9760-f202d4298f4d" name="座位显示屏 - 维护" incoming="#1c19355c-6b5b-495c-bc09-ff91582a8d56">
               <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                   id="c960fb16-b456-4b3b-8a86-93ddc26bde98" name="region"/>
             </ownedStates>
             <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:Mode"
-                id="ed01d361-f9cb-4c26-a0aa-e9338d4066ff" name="Seat TV - End-User Service Running"
-                referencedStates="#bf9bce31-bcc2-43fa-8c87-cd511e2c2c34 #39e0c808-34e0-4c9e-b82a-85bd2d11b57c #07c746af-a76b-4466-820b-3773214be640 #e176b21f-d560-4bb2-8fda-f0ec8f9bdb87 #19998744-6825-4911-be1d-e1c973a04511 #49555c2f-b9c9-4ed5-b704-aab0ad79080f"
+                id="ed01d361-f9cb-4c26-a0aa-e9338d4066ff" name="座位显示屏 - 运行用户服务" referencedStates="#bf9bce31-bcc2-43fa-8c87-cd511e2c2c34 #39e0c808-34e0-4c9e-b82a-85bd2d11b57c #07c746af-a76b-4466-820b-3773214be640 #e176b21f-d560-4bb2-8fda-f0ec8f9bdb87 #19998744-6825-4911-be1d-e1c973a04511 #49555c2f-b9c9-4ed5-b704-aab0ad79080f"
                 outgoing="#76b010f4-8d70-4b39-89ca-cbd2c842e967 #217b9f27-b9c3-41aa-8c70-4a08cf65938e">
               <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                   id="8260a113-8dbe-40b6-bff0-b4802f463b2e" name="region" involvedStates="#39e0c808-34e0-4c9e-b82a-85bd2d11b57c #07c746af-a76b-4466-820b-3773214be640 #e176b21f-d560-4bb2-8fda-f0ec8f9bdb87 #19998744-6825-4911-be1d-e1c973a04511 #49555c2f-b9c9-4ed5-b704-aab0ad79080f #bf9bce31-bcc2-43fa-8c87-cd511e2c2c34">
                 <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:Mode"
-                    id="49555c2f-b9c9-4ed5-b704-aab0ad79080f" name="Seat TV - VOD Service Activated"
+                    id="49555c2f-b9c9-4ed5-b704-aab0ad79080f" name="座位显示屏 - 激活视频点播服务"
                     referencedStates="#3c6b34c9-a875-4cc6-9cb6-02b1b4b94432 #13b3665b-619f-4678-8a6f-ccef076b3552 #ff567a76-0861-45b6-8d64-293758b0dd7f #4149fbf5-522e-42f2-b0a7-ccb8f98f6b61"
                     outgoing="#2f61a941-fb18-4ac9-ade0-22859e7814c7" incoming="#4844da87-34dc-4112-8b7d-6f89a76eec35">
                   <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                       id="049ea425-9c6a-4f46-ba6f-c5583026db6e" name="region" involvedStates="#3c6b34c9-a875-4cc6-9cb6-02b1b4b94432 #13b3665b-619f-4678-8a6f-ccef076b3552 #ff567a76-0861-45b6-8d64-293758b0dd7f #4149fbf5-522e-42f2-b0a7-ccb8f98f6b61">
                     <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:Mode"
-                        id="3c6b34c9-a875-4cc6-9cb6-02b1b4b94432" name="Seat TV - VOD Movie Paused"
+                        id="3c6b34c9-a875-4cc6-9cb6-02b1b4b94432" name="座位 - 暂停点播电影"
                         outgoing="#88ef9fad-5981-429d-97c4-ceb49a174c17" incoming="#ad2aa322-f575-477d-9bb8-be77f40d5a81">
                       <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                           id="1594d2e9-bd45-456c-b6d0-0b5dfd91a7e7" name="region"/>
                     </ownedStates>
                     <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:Mode"
-                        id="13b3665b-619f-4678-8a6f-ccef076b3552" name="Seat TV - VOD Movie Running"
+                        id="13b3665b-619f-4678-8a6f-ccef076b3552" name="座位 - 电影点播"
                         outgoing="#ad2aa322-f575-477d-9bb8-be77f40d5a81 #eaf022e9-435a-4e1c-8da0-a6477f8bc411"
                         incoming="#26009e33-1109-4c48-8df9-44c5a9b6d26f #88ef9fad-5981-429d-97c4-ceb49a174c17">
                       <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                           id="efd76290-7997-4f39-8528-c63e1cf1ea32" name="region"/>
                     </ownedStates>
                     <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:Mode"
-                        id="ff567a76-0861-45b6-8d64-293758b0dd7f" name="Seat TV - Displaying VOD User Interface"
+                        id="ff567a76-0861-45b6-8d64-293758b0dd7f" name="座位显示屏 - 显示视频点播用户界面"
                         outgoing="#26009e33-1109-4c48-8df9-44c5a9b6d26f" incoming="#b8184312-f720-4d38-980b-bc1e4440be45 #eaf022e9-435a-4e1c-8da0-a6477f8bc411">
                       <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                           id="dd45b63f-b500-4f8a-9fc4-e5a3b1face96" name="region"/>
@@ -3377,25 +3377,25 @@
                   </ownedRegions>
                 </ownedStates>
                 <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:Mode"
-                    id="19998744-6825-4911-be1d-e1c973a04511" name="Seat TV - News Service Activated"
+                    id="19998744-6825-4911-be1d-e1c973a04511" name="座位显示屏 - 激活新闻服务"
                     incoming="#d6f870b8-c0f4-4c90-994f-0fcda94b2969">
                   <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                       id="b017d7b3-9e64-494f-9c25-cd46cf3b20ad" name="region"/>
                 </ownedStates>
                 <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:Mode"
-                    id="39e0c808-34e0-4c9e-b82a-85bd2d11b57c" name="Seat TV - Any Other Service Activated"
+                    id="39e0c808-34e0-4c9e-b82a-85bd2d11b57c" name="座位显示屏- 激活其他服务"
                     incoming="#effbd5e4-a19c-4f63-88fa-3c03b0932efa">
                   <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                       id="d3df83eb-63c9-4b92-b2de-71528f39d4ef" name="region"/>
                 </ownedStates>
                 <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:Mode"
-                    id="07c746af-a76b-4466-820b-3773214be640" name="Seat TV - Gaming Service Activated"
+                    id="07c746af-a76b-4466-820b-3773214be640" name="座位显示屏 - 激活游戏服务"
                     incoming="#6c7bfe2c-addc-473d-9381-443727c3f1c2">
                   <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                       id="e121e138-3d99-40e5-8d59-e3ae870605d5" name="region"/>
                 </ownedStates>
                 <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:Mode"
-                    id="e176b21f-d560-4bb2-8fda-f0ec8f9bdb87" name="Seat TV - Moving-Map Service Activated"
+                    id="e176b21f-d560-4bb2-8fda-f0ec8f9bdb87" name="座位显示屏 - 激活飞行地图服务"
                     incoming="#7d63a0c2-2013-4457-9043-6151dceb7afe">
                   <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                       id="66e0e599-bc7d-4a5e-8a1c-b30046e8594a" name="region"/>
@@ -3410,25 +3410,24 @@
               </ownedRegions>
             </ownedStates>
             <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:Mode"
-                id="e1589350-78e9-43b7-b87d-926def3fdddf" name="Seat TV - Interrupted"
-                referencedStates="#07ab7e94-cc45-4ad3-8a48-ed3f7fed0ec9 #7104c85d-4fb0-48c6-a16b-2c162fd57a0f #cd6a3e27-e36b-4490-9fca-91784a8fc2dc"
+                id="e1589350-78e9-43b7-b87d-926def3fdddf" name="座位显示屏 - 中断" referencedStates="#07ab7e94-cc45-4ad3-8a48-ed3f7fed0ec9 #7104c85d-4fb0-48c6-a16b-2c162fd57a0f #cd6a3e27-e36b-4490-9fca-91784a8fc2dc"
                 outgoing="#4596aea0-9ef1-4f03-bf26-d9d61fb259e3 #fec67b1b-bd5d-429d-b28a-657c9ee2eb0d">
               <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                   id="5013b2fc-071d-4140-b51f-43371eee43a2" name="region" involvedStates="#07ab7e94-cc45-4ad3-8a48-ed3f7fed0ec9 #7104c85d-4fb0-48c6-a16b-2c162fd57a0f #cd6a3e27-e36b-4490-9fca-91784a8fc2dc">
                 <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:Mode"
-                    id="07ab7e94-cc45-4ad3-8a48-ed3f7fed0ec9" name="Seat TV - Imposed Video Paused"
+                    id="07ab7e94-cc45-4ad3-8a48-ed3f7fed0ec9" name="座位显示屏 - 暂停插播视频"
                     outgoing="#7b4f505b-4cf7-4a06-9fba-cda38f4d515a" incoming="#ff455a76-2b69-421b-a315-1ed6a991059d">
                   <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                       id="9bb5b92f-8c5c-4ae7-893f-531c31ee22f7" name="region"/>
                 </ownedStates>
                 <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:Mode"
-                    id="7104c85d-4fb0-48c6-a16b-2c162fd57a0f" name="Seat TV - Imposed Video Running"
+                    id="7104c85d-4fb0-48c6-a16b-2c162fd57a0f" name="座位显示屏 - 插播视频"
                     outgoing="#ff455a76-2b69-421b-a315-1ed6a991059d" incoming="#7b4f505b-4cf7-4a06-9fba-cda38f4d515a #217b9f27-b9c3-41aa-8c70-4a08cf65938e">
                   <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                       id="27e65069-cb24-4fbb-8005-47f36f7a642a" name="region"/>
                 </ownedStates>
                 <ownedStates xsi:type="org.polarsys.capella.core.data.capellacommon:Mode"
-                    id="cd6a3e27-e36b-4490-9fca-91784a8fc2dc" name="Seat TV - Audio Announcement Running">
+                    id="cd6a3e27-e36b-4490-9fca-91784a8fc2dc" name="座位显示屏 - 播放语音通知">
                   <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                       id="59edfc1a-3f8c-4a4e-88d1-d0c73cc9a5ed" name="region"/>
                 </ownedStates>
