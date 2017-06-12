@@ -1021,8 +1021,6 @@
             id="d3986bd2-066f-4be7-9218-25a47f3d8e40" name="媒体内容" summary="" description=""
             exchanges="#13425779-3b59-4d68-8734-cd9717b69d29 #5e30c0be-9342-477c-82a1-c1d1ba0682fa #018a09b4-bb7a-4714-8814-613e3af68bfe #4411a2bf-9f4e-40f3-b66e-c82b89483b66 #323c5735-2b57-4f13-936f-edabf89c3785"/>
         <ownedCategories xsi:type="org.polarsys.capella.core.data.fa:ExchangeCategory"
-            id="77d9dae2-f68a-42e6-a0bf-2a50ea6c2ac0" name="Audio Video Broadcast Commands"/>
-        <ownedCategories xsi:type="org.polarsys.capella.core.data.fa:ExchangeCategory"
             id="bda4ced7-21cb-4c30-af35-82bed28c0673" name="插播视频控制指令" exchanges="#0bc7709d-62f9-4a1e-af23-b5a8a78ac19c #cc3abddf-d289-4461-925d-c4d962230954 #b40bc1cf-4622-41ec-801f-1f37102f7ff9"/>
         <ownedCategories xsi:type="org.polarsys.capella.core.data.fa:ExchangeCategory"
             id="b9c288d6-0678-4a88-af2a-d847b7530882" name="电影点播控制指令" exchanges="#0ce48a3f-6a6d-498c-b41e-280d1bc64928 #7531be55-55d9-44a9-8077-727417cf4f0e #136ac12c-9e93-43b9-bc3d-4253ea48233a"/>
@@ -1522,7 +1520,7 @@
             id="291fb362-9ae5-4779-8405-1281ea3709f6" name="提供音频与视频交互方法" summary=""
             description="" purposes="#e111ee4a-00e8-4f8a-ab1f-fd95123d03f4">
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
-              id="dd56a4c7-8304-4471-bf3f-9ffddaccf544" name="Watch Imposed Video on Cabin Screen">
+              id="dd56a4c7-8304-4471-bf3f-9ffddaccf544" name="看插播视频（客舱显示器）">
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
                 id="10eaa967-ff31-4dd1-910a-92a7da7135de" involver="#dd56a4c7-8304-4471-bf3f-9ffddaccf544"
                 involved="#7f88eaab-0c1f-456b-b32f-f65c5bf00454" nextFunctionalChainInvolvements="#6ab4adaf-53bf-4c8d-b2d1-88d87529542a"/>
@@ -1567,7 +1565,7 @@
                 involved="#0048b9e1-315c-4025-a694-d91e75250c19" nextFunctionalChainInvolvements="#a7a779f2-d033-4014-8d19-aecdc216b988"/>
           </ownedFunctionalChains>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
-              id="adb3033a-d058-4995-98e9-60aaf85f4328" name="Watch Imposed Video on Private Screen">
+              id="adb3033a-d058-4995-98e9-60aaf85f4328" name="看插播视频（座位显示器）">
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
                 id="9dcc9939-84d2-487d-888f-099552984c4d" involver="#adb3033a-d058-4995-98e9-60aaf85f4328"
                 involved="#dc5045e3-96c3-4fc1-b144-305a23255b35" nextFunctionalChainInvolvements="#ddef8903-d909-4057-b357-e50fe4d098cf"/>
@@ -1615,11 +1613,7 @@
                 involved="#2d2e8936-7dc3-40da-bb09-6d3f2ce71921" nextFunctionalChainInvolvements="#605c813a-d5d5-4eb0-b067-68ec2f3237f9"/>
           </ownedFunctionalChains>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
-              id="7d375159-5cdb-4959-8e5c-98f43941240c" name="Stop Playing Imposed Video [NOT DONE]"/>
-          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
-              id="2c6157aa-a353-4db7-9f05-05bb1db08215" name="Pause Running Imposed Video [NOT DONE]"/>
-          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
-              id="f5c2a034-4749-41c2-a77e-6ecaae28f5d0" name="Broadcast Audio Announcement">
+              id="f5c2a034-4749-41c2-a77e-6ecaae28f5d0" name="语音通知广播">
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
                 id="1c8d9d0e-9c68-4dda-b9d7-21b9818923f5" involver="#f5c2a034-4749-41c2-a77e-6ecaae28f5d0"
                 involved="#8f279b07-26aa-46f6-8c9a-2a132f0b1177" nextFunctionalChainInvolvements="#c65bb301-02e0-4ebd-8d33-08c06172f987"/>
@@ -1864,12 +1858,6 @@
                 sourceElement="#a395ed36-9833-4a4a-89cf-a4c41cd5928c"/>
           </ownedScenarios>
           <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
-              id="66824390-d58b-492b-b813-02d0dc1cd64e" involver="#291fb362-9ae5-4779-8405-1281ea3709f6"
-              involved="#2c6157aa-a353-4db7-9f05-05bb1db08215"/>
-          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
-              id="eb32c77a-ac74-4f49-bde9-c84bb2f050a3" involver="#291fb362-9ae5-4779-8405-1281ea3709f6"
-              involved="#7d375159-5cdb-4959-8e5c-98f43941240c"/>
-          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
               id="48a3d297-2d96-4886-a655-706baa7bdf26" involver="#291fb362-9ae5-4779-8405-1281ea3709f6"
               involved="#dd56a4c7-8304-4471-bf3f-9ffddaccf544"/>
           <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
@@ -1940,7 +1928,7 @@
             id="839ba873-8442-4a01-bd1a-1f4c3cc6ed52" name="提供视频娱乐服务" description="&lt;p>&#xD;&#xA;    [Wikipedia]&lt;br />&#xD;&#xA;    Video entertainment is provided via a large video screen at the front of a cabin section, as well as via smaller&#xD;&#xA;    monitors situated every few rows above the aisles. Sound is supplied via the same headphones as those distributed for&#xD;&#xA;    audio entertainment.&lt;br />&#xD;&#xA;    Personal televisions (PTVs) for every passenger provide passengers with channels broadcasting new and classic films, as&#xD;&#xA;    well as comedies, news, sports programming, documentaries, children's shows, and drama series. Some airlines also&#xD;&#xA;    present news and current affairs programming, which are often pre-recorded and delivered in the early morning before&#xD;&#xA;    flights commence.&lt;br />&#xD;&#xA;    PTVs are operated via an In flight Management System which stores pre-recorded channels on a central server and streams&#xD;&#xA;    them to PTV equipped seats during flight. VOD (Video On Demand) systems store individual programs separately, allowing&#xD;&#xA;    a passenger to have a specific program streamed to them privately, and be able to control the playback.&#xD;&#xA;&lt;/p>"
             purposes="#19d6137f-1add-4a5e-9679-b89a3e4499ac">
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
-              id="e00b45ce-330b-4b19-ac67-07095a77f8c0" name="Start Playing VOD Movie">
+              id="e00b45ce-330b-4b19-ac67-07095a77f8c0" name="播放点播电影">
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
                 id="8fcb7629-6687-4db6-82a7-fc12cbacd444" involver="#e00b45ce-330b-4b19-ac67-07095a77f8c0"
                 involved="#0ce48a3f-6a6d-498c-b41e-280d1bc64928" nextFunctionalChainInvolvements="#cbb3e117-f2b7-482e-b768-cd05fe44b3fa"/>
@@ -1976,7 +1964,7 @@
                 involved="#e1808524-dfa9-4883-a809-c44a87712d1b" nextFunctionalChainInvolvements="#605433ca-8e27-4b91-9cb8-f298ed98540b"/>
           </ownedFunctionalChains>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
-              id="5ecacd76-5aa1-4a9f-91f5-e00bad983206" name="Resume VOD Movie">
+              id="5ecacd76-5aa1-4a9f-91f5-e00bad983206" name="电影点播恢复">
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvement"
                 id="267255ca-2057-4d3c-8a46-030843471c63" involver="#5ecacd76-5aa1-4a9f-91f5-e00bad983206"
                 involved="#0ce48a3f-6a6d-498c-b41e-280d1bc64928" nextFunctionalChainInvolvements="#9ab7f932-37c0-4a97-adbd-eef860774287"/>
@@ -2011,12 +1999,6 @@
                 id="fc948026-68ad-458c-aa20-c9ba9ba9f317" involver="#5ecacd76-5aa1-4a9f-91f5-e00bad983206"
                 involved="#4125bbcd-f124-4bd5-9f40-aa73c538a3e4" nextFunctionalChainInvolvements="#5d454c61-c7a4-4086-92d0-b32a3d9e46c3"/>
           </ownedFunctionalChains>
-          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
-              id="0293672b-2202-4438-8ad4-86af57df02c3" name="VOD Service Activation [NOT DONE]"/>
-          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
-              id="b69dc23e-97e5-4f8f-b4b4-704fcd851d9e" name="VOD Movie Interruption [NOT DONE]"/>
-          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
-              id="10a21953-49e6-4179-8ce8-aafc125e9540" name="Stop VOD Movie[NOT DONE]"/>
           <ownedScenarios xsi:type="org.polarsys.capella.core.data.interaction:Scenario"
               id="58d8d80a-34ab-4e60-aee2-fb8eb885583a" name="[ES] 启动视频点播服务" kind="DATA_FLOW">
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
@@ -2412,15 +2394,6 @@
             <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEvent"
                 id="1cd5fb28-aa32-421d-9526-555efad012de"/>
           </ownedScenarios>
-          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
-              id="7374f590-08c2-4bfc-8d97-4207352414ff" involver="#839ba873-8442-4a01-bd1a-1f4c3cc6ed52"
-              involved="#b69dc23e-97e5-4f8f-b4b4-704fcd851d9e"/>
-          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
-              id="2828a16d-2900-4a0f-87ba-4f69779799f6" involver="#839ba873-8442-4a01-bd1a-1f4c3cc6ed52"
-              involved="#0293672b-2202-4438-8ad4-86af57df02c3"/>
-          <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
-              id="469898d5-8052-423e-aede-af9c672e9154" involver="#839ba873-8442-4a01-bd1a-1f4c3cc6ed52"
-              involved="#10a21953-49e6-4179-8ce8-aafc125e9540"/>
           <ownedFunctionalChainAbstractCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.interaction:FunctionalChainAbstractCapabilityInvolvement"
               id="9f6850cf-5291-4107-b57b-d866243e91d0" involver="#839ba873-8442-4a01-bd1a-1f4c3cc6ed52"
               involved="#5ecacd76-5aa1-4a9f-91f5-e00bad983206"/>
@@ -3046,7 +3019,7 @@
           <ownedDataTypes xsi:type="org.polarsys.capella.core.data.information.datatype:Enumeration"
               id="6bca4516-9dc6-45ad-9302-d7924289aa23" name="座位等级">
             <ownedLiterals xsi:type="org.polarsys.capella.core.data.information.datavalue:EnumerationLiteral"
-                id="b6dd6acc-abae-4921-abf1-1600a9230f7f" name="商务" abstractType="#6bca4516-9dc6-45ad-9302-d7924289aa23"/>
+                id="b6dd6acc-abae-4921-abf1-1600a9230f7f" name="商务舱" abstractType="#6bca4516-9dc6-45ad-9302-d7924289aa23"/>
             <ownedLiterals xsi:type="org.polarsys.capella.core.data.information.datavalue:EnumerationLiteral"
                 id="25a70f9a-8bbc-471f-9258-496f41a414ea" name="头等舱" abstractType="#6bca4516-9dc6-45ad-9302-d7924289aa23"/>
             <ownedLiterals xsi:type="org.polarsys.capella.core.data.information.datavalue:EnumerationLiteral"
@@ -3687,9 +3660,6 @@
         <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
             id="ec4359c7-7b19-4778-a5af-18912c2ff072" targetElement="#d3986bd2-066f-4be7-9218-25a47f3d8e40"
             sourceElement="#5601f755-bb09-4f63-9e32-7c5c43381a16"/>
-        <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-            id="341f8205-dc3d-4318-bdee-b0b90d73eb73" targetElement="#77d9dae2-f68a-42e6-a0bf-2a50ea6c2ac0"
-            sourceElement="#e2bdc750-b09f-4195-bd5b-b9c282f9cedb"/>
         <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
             id="50a77db3-30eb-4fc6-820b-3da4405a757a" targetElement="#bda4ced7-21cb-4c30-af35-82bed28c0673"
             sourceElement="#a7d8488f-3e03-4d4c-9c7b-630a8170b033"/>
@@ -5303,12 +5273,6 @@
               id="1f4e2f94-174d-4dea-acb5-33388257eaaa" targetElement="#1513fe39-0ebe-4163-ba54-e3cce2584606"
               sourceElement="#1129b4d6-f502-4405-9e77-0c53c4742ec3"/>
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="a56d3df4-c40b-4c93-bd30-f3d0696427e6" targetElement="#66824390-d58b-492b-b813-02d0dc1cd64e"
-              sourceElement="#a062bb75-d997-4029-a662-338827dfec67"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="1651a35d-93d1-4176-8e49-cb1b84508daf" targetElement="#eb32c77a-ac74-4f49-bde9-c84bb2f050a3"
-              sourceElement="#788a4b83-f389-4be5-b5f3-f78b8d1d8630"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="30cc4b84-ecbd-403d-b5ab-ea397efd02d7" targetElement="#9a327f52-5eef-4bc0-891b-cdaba8a2dd1d"
               sourceElement="#5d8125e5-100b-4639-9916-fbb8ce99a82e"/>
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
@@ -5579,17 +5543,9 @@
                 sourceElement="#849047d6-233a-4f85-bf60-8df1f145cda9"/>
           </ownedFunctionalChains>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
-              id="3def4748-6a03-4e18-8004-0cacb9f3b457" name="Stop Playing Imposed Video [NOT DONE]">
-            <ownedFunctionalChainRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainRealization"
-                id="b7ce1ebe-886a-4f46-baa8-13e7c9063613" targetElement="#7d375159-5cdb-4959-8e5c-98f43941240c"
-                sourceElement="#3def4748-6a03-4e18-8004-0cacb9f3b457"/>
-          </ownedFunctionalChains>
+              id="3def4748-6a03-4e18-8004-0cacb9f3b457" name="Stop Playing Imposed Video [NOT DONE]"/>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
-              id="5eb59259-7021-4c20-805c-9115a89867a0" name="Pause Running Imposed Video [NOT DONE]">
-            <ownedFunctionalChainRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainRealization"
-                id="7c424e74-fbe7-4c86-9fc2-63336e222f36" targetElement="#2c6157aa-a353-4db7-9f05-05bb1db08215"
-                sourceElement="#5eb59259-7021-4c20-805c-9115a89867a0"/>
-          </ownedFunctionalChains>
+              id="5eb59259-7021-4c20-805c-9115a89867a0" name="Pause Running Imposed Video [NOT DONE]"/>
           <ownedScenarios xsi:type="org.polarsys.capella.core.data.interaction:Scenario"
               id="9c08879f-39bb-42a1-b1bf-badb30f67d12" name="[FS] Perform Audio Announcement"
               kind="FUNCTIONAL">
@@ -6792,15 +6748,6 @@
               id="4d86638a-66b3-4be4-ac0b-23b3f8c29a6d" targetElement="#a224ab9f-a7b5-4644-9849-acbb064f9453"
               sourceElement="#0a9c7a28-dcb2-4484-9c12-4d0e39311a08"/>
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="649c7e24-8ad6-49eb-8f91-3276f9f87653" targetElement="#7374f590-08c2-4bfc-8d97-4207352414ff"
-              sourceElement="#b46d290d-a6d2-4a50-a1e7-de0a2b88664a"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="05fe3052-c69d-4c81-8967-cf36f6a75e5b" targetElement="#2828a16d-2900-4a0f-87ba-4f69779799f6"
-              sourceElement="#2cbe5770-5e65-4b97-b1f5-9ddcded65a8b"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="3f284d32-583d-4a70-a46f-930320bbea9a" targetElement="#469898d5-8052-423e-aede-af9c672e9154"
-              sourceElement="#11943a94-4c8b-4678-b9ae-7ebf2b3602f7"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="b62bb5bb-d2f5-4655-b89d-9cf3fcd08bfc" targetElement="#c81ce234-a596-4696-991b-601eb0b0c0df"
               sourceElement="#8dd2de52-6924-47fe-a55d-ee436fd1da63"/>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
@@ -6918,23 +6865,11 @@
                 sourceElement="#9601e912-9538-4dde-9c4e-c631179e763c"/>
           </ownedFunctionalChains>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
-              id="e57ba3b5-fd92-4bf6-8b4d-1c7df1602a20" name="VOD Service Activation [NOT DONE]">
-            <ownedFunctionalChainRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainRealization"
-                id="aa7d4763-3d5d-4e9c-b155-75b9da92e4c0" targetElement="#0293672b-2202-4438-8ad4-86af57df02c3"
-                sourceElement="#e57ba3b5-fd92-4bf6-8b4d-1c7df1602a20"/>
-          </ownedFunctionalChains>
+              id="e57ba3b5-fd92-4bf6-8b4d-1c7df1602a20" name="VOD Service Activation [NOT DONE]"/>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
-              id="7cde2018-8a87-450f-934a-bca3ea150873" name="VOD Movie Interruption [NOT DONE]">
-            <ownedFunctionalChainRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainRealization"
-                id="e5398793-903c-42a3-bf32-068bb69f2097" targetElement="#b69dc23e-97e5-4f8f-b4b4-704fcd851d9e"
-                sourceElement="#7cde2018-8a87-450f-934a-bca3ea150873"/>
-          </ownedFunctionalChains>
+              id="7cde2018-8a87-450f-934a-bca3ea150873" name="VOD Movie Interruption [NOT DONE]"/>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
-              id="1f37cd9c-1aa0-4698-95f9-c87437af0914" name="Stop VOD Movie Play [NOT DONE]">
-            <ownedFunctionalChainRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainRealization"
-                id="e57ad5a0-e15d-4d1b-b988-3496c09f63d0" targetElement="#10a21953-49e6-4179-8ce8-aafc125e9540"
-                sourceElement="#1f37cd9c-1aa0-4698-95f9-c87437af0914"/>
-          </ownedFunctionalChains>
+              id="1f37cd9c-1aa0-4698-95f9-c87437af0914" name="Stop VOD Movie Play [NOT DONE]"/>
           <ownedScenarios xsi:type="org.polarsys.capella.core.data.interaction:Scenario"
               id="24e49b35-c557-4e4f-a2a7-516009925532" name="[ES] Start Playing VOD Movie"
               kind="DATA_FLOW">
