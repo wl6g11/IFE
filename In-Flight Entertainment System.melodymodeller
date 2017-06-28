@@ -15289,27 +15289,27 @@
       <ownedConfigurationItem xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
           id="fb4d3ed0-4de7-43ce-9678-c3d28e3e44f9" name="System" kind="SystemCI">
         <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="d524c6d1-8f2e-4864-a54f-2400db7e0c42"
-            name="Streaming SW" abstractType="#64961d5d-932d-4c69-8be5-2879940483bc"/>
+            name="流媒体 SW" abstractType="#64961d5d-932d-4c69-8be5-2879940483bc"/>
         <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="4b20437f-0aed-4b7c-82c0-f5d58e02cd02"
-            name="Aircraft Interface" abstractType="#d90f7495-1f1a-4882-95a1-edda9f16fbdf"/>
+            name="飞机接口" abstractType="#d90f7495-1f1a-4882-95a1-edda9f16fbdf"/>
         <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="5e30ff1f-492c-4013-b992-494f9af7a3eb"
-            name="Seat TV HW" abstractType="#a5d70e56-04c7-4b44-81e4-ce891cae0da3"/>
+            name="座位TV HW" abstractType="#a5d70e56-04c7-4b44-81e4-ce891cae0da3"/>
         <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="cded5be9-12a8-4d0d-9b21-9e08b96ce169"
-            name="Airline-Specific Interaction SW" abstractType="#c241a991-774a-4a82-854a-91d22e804b11"/>
+            name="航班特殊接口 SW" abstractType="#c241a991-774a-4a82-854a-91d22e804b11"/>
         <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="b3a08ea0-b5b1-4d3a-99e1-7dded65f0cb9"
-            name="Cabin HW" abstractType="#6c0ada8f-a517-4a12-bd8e-12c28ab8b378"/>
+            name="客舱 HW" abstractType="#6c0ada8f-a517-4a12-bd8e-12c28ab8b378"/>
         <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="7d08ba13-b10c-4d4a-bacf-c34b785cc29b"
-            name="Network HW and Cables" abstractType="#5e139f27-c1ea-42d5-a7f0-1cdc6d8bc52c"/>
+            name="网络 HW与线缆" abstractType="#5e139f27-c1ea-42d5-a7f0-1cdc6d8bc52c"/>
         <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="272c8d3f-2d39-4358-b367-2aa7be2a069e"
-            name="Network SW" abstractType="#f6b83d87-9b95-4a3c-aeea-48d755a6eda5"/>
+            name="网络 SW" abstractType="#f6b83d87-9b95-4a3c-aeea-48d755a6eda5"/>
         <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="7e449f2b-8be8-42a5-950d-5a833352fd09"
-            name="Core PVDU SW" abstractType="#6e738dc3-2775-4fd8-bec7-376057b88a11"/>
+            name="核心 PVDU SW" abstractType="#6e738dc3-2775-4fd8-bec7-376057b88a11"/>
         <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="25060bd4-14e4-4225-aabb-ccf9ca4f66cd"
             name="SystemCI 9" abstractType="#c02105c2-ca0e-44ea-8868-4bf81d6d8e1c"/>
         <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="ab64a04f-f0e3-4c81-96ff-4f14ca83256d"
-            name="Video Server HW" abstractType="#79d96a1d-b45a-4621-9c30-3d793fd40ee8"/>
+            name="视频服务 HW" abstractType="#79d96a1d-b45a-4621-9c30-3d793fd40ee8"/>
         <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
-            id="64961d5d-932d-4c69-8be5-2879940483bc" name="Streaming SW" kind="COTSCI">
+            id="64961d5d-932d-4c69-8be5-2879940483bc" name="流媒体 SW" kind="COTSCI">
           <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
               id="21e47eff-4154-4737-80b1-40c7f2566827" targetElement="#3cba132d-d6ec-4839-b597-2183f9f998b2"
               sourceElement="#64961d5d-932d-4c69-8be5-2879940483bc"/>
@@ -15327,13 +15327,13 @@
               sourceElement="#64961d5d-932d-4c69-8be5-2879940483bc"/>
         </ownedConfigurationItems>
         <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
-            id="d90f7495-1f1a-4882-95a1-edda9f16fbdf" name="Aircraft Interface" kind="InterfaceCI">
+            id="d90f7495-1f1a-4882-95a1-edda9f16fbdf" name="飞机接口" kind="InterfaceCI">
           <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
               id="6c3b74f9-35b8-4d5a-b936-1cd54333a81f" targetElement="#cdc16f53-6eaa-4d74-8d63-73afc483dece"
               sourceElement="#d90f7495-1f1a-4882-95a1-edda9f16fbdf"/>
         </ownedConfigurationItems>
         <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
-            id="a5d70e56-04c7-4b44-81e4-ce891cae0da3" name="Seat TV HW" kind="HWCI">
+            id="a5d70e56-04c7-4b44-81e4-ce891cae0da3" name="座位TV HW" kind="HWCI">
           <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
               id="93737203-a609-4bb8-991c-c5e2a726ed3f" targetElement="#22cbea03-a250-4ea8-a6b3-63829196feb1"
               sourceElement="#a5d70e56-04c7-4b44-81e4-ce891cae0da3"/>
@@ -15342,8 +15342,7 @@
               sourceElement="#a5d70e56-04c7-4b44-81e4-ce891cae0da3"/>
         </ownedConfigurationItems>
         <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
-            id="c241a991-774a-4a82-854a-91d22e804b11" name="Airline-Specific Interaction SW"
-            kind="CSCI">
+            id="c241a991-774a-4a82-854a-91d22e804b11" name="航班特殊接口 SW" kind="CSCI">
           <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
               id="ac682038-5d25-4f24-8ce0-fb4f7e98b97e" targetElement="#abc69d28-d5c4-470e-afd1-89daa1cc81d2"
               sourceElement="#c241a991-774a-4a82-854a-91d22e804b11"/>
@@ -15355,7 +15354,7 @@
               sourceElement="#c241a991-774a-4a82-854a-91d22e804b11"/>
         </ownedConfigurationItems>
         <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
-            id="6c0ada8f-a517-4a12-bd8e-12c28ab8b378" name="Cabin HW" kind="HWCI">
+            id="6c0ada8f-a517-4a12-bd8e-12c28ab8b378" name="客舱 HW" kind="HWCI">
           <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
               id="8458c1cb-9e70-476e-9ed0-f893f563b7be" targetElement="#404eeafa-1b20-4162-893c-f0cfc1e836d6"
               sourceElement="#6c0ada8f-a517-4a12-bd8e-12c28ab8b378"/>
@@ -15364,8 +15363,7 @@
               sourceElement="#6c0ada8f-a517-4a12-bd8e-12c28ab8b378"/>
         </ownedConfigurationItems>
         <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
-            id="5e139f27-c1ea-42d5-a7f0-1cdc6d8bc52c" name="Network HW and Cables"
-            kind="NDICI">
+            id="5e139f27-c1ea-42d5-a7f0-1cdc6d8bc52c" name="网络 HW与线缆" kind="NDICI">
           <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
               id="9d3c5d4b-9125-4c58-aa68-a98e8f1efb4f" targetElement="#33c2368e-47ba-498b-8458-04417468cb20"
               sourceElement="#5e139f27-c1ea-42d5-a7f0-1cdc6d8bc52c"/>
@@ -15389,7 +15387,7 @@
               sourceElement="#5e139f27-c1ea-42d5-a7f0-1cdc6d8bc52c"/>
         </ownedConfigurationItems>
         <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
-            id="f6b83d87-9b95-4a3c-aeea-48d755a6eda5" name="Network SW" kind="CSCI">
+            id="f6b83d87-9b95-4a3c-aeea-48d755a6eda5" name="网络 SW" kind="CSCI">
           <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
               id="db898aa6-f1fc-4df7-b401-72bff1b0a6f1" targetElement="#33ca7fc8-8bd1-48c3-9f22-3fbd217c2549"
               sourceElement="#f6b83d87-9b95-4a3c-aeea-48d755a6eda5"/>
@@ -15401,7 +15399,7 @@
               sourceElement="#f6b83d87-9b95-4a3c-aeea-48d755a6eda5"/>
         </ownedConfigurationItems>
         <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
-            id="6e738dc3-2775-4fd8-bec7-376057b88a11" name="Core PVDU SW" kind="CSCI">
+            id="6e738dc3-2775-4fd8-bec7-376057b88a11" name="核心 PVDU SW" kind="CSCI">
           <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
               id="22c5adb0-23c0-47ee-9a7a-c659430f9dd2" targetElement="#737331c9-23e8-4588-969a-fd15444cafa6"
               sourceElement="#6e738dc3-2775-4fd8-bec7-376057b88a11"/>
@@ -15419,7 +15417,7 @@
               sourceElement="#c02105c2-ca0e-44ea-8868-4bf81d6d8e1c"/>
         </ownedConfigurationItems>
         <ownedConfigurationItems xsi:type="org.polarsys.capella.core.data.epbs:ConfigurationItem"
-            id="79d96a1d-b45a-4621-9c30-3d793fd40ee8" name="Video Server HW" kind="HWCI">
+            id="79d96a1d-b45a-4621-9c30-3d793fd40ee8" name="视频服务 HW" kind="HWCI">
           <ownedPhysicalArtifactRealizations xsi:type="org.polarsys.capella.core.data.epbs:PhysicalArtifactRealization"
               id="69d6d498-bf6f-4821-9085-6223dbb50256" targetElement="#a850426c-c425-4c85-85fa-cd85b0c066e5"
               sourceElement="#79d96a1d-b45a-4621-9c30-3d793fd40ee8"/>
